@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:cornflowerblue;
+    align-items: center;
+}
+
+.container {
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;  
+    flex-direction: column;
+}
+
+.convert-time-container {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.time-input {
+    width: 200px;
+    height: 25px;
+    border-radius: 20px;
+    padding: 0 10px 0;
+}
+
+#convert-icon {
+    padding-bottom: 3px;
+}
